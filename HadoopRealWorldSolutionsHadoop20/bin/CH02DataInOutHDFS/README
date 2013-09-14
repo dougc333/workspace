@@ -1,0 +1,5 @@
+How to write into HDFS
+
+hadoop fs -copyFromLocal asdf.txt /user/dc/
+
+Use the Java class. This isn't really a cluster operation, where we write multiple small files into HDFS using mappers
